@@ -1,0 +1,25 @@
+import Foundation
+
+//1. Variáveis opcionais são variaveis que não contem um valor definido,
+//elas são usadas para que erros não sejam cometidos por não inicializar uma variável com valor.
+
+//2.
+var arrayex:[Int] = [1,2];
+var setex: Set = [1.5, 2.4, 3.5];
+var dicionarioex = ["chave1":"valor1","chav2":"valor2","chave3":"valor3","chave4":"valor4",];
+
+//3. Os sets não podem ter elementos iguais e não são ordenados
+
+//4.
+var array1 = [1, 13, 13, 26, 38, 38, 39, 41, 50, 50, 74, 74, 80, 90, 100];
+var setarray = Set(array1);
+var array2 = Array(setarray);
+
+//5.
+var soma:Int = 0;
+
+for elemento in array1
+{
+    soma += elemento
+}
+print(soma)
