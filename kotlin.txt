@@ -1,0 +1,98 @@
+import Foundation
+
+//  1.
+// var soma: Int = 0
+// var somaprojeto: Int = 0
+// var inputNumber: Int = 0
+
+// while somaprojeto < 100
+// {
+//     soma = somaprojeto
+//     somaprojeto += inputNumber
+
+//     inputNumber = Int.random(in: 1..<101)
+//     print(soma)
+// }
+//2.
+// var tentativas = ["tentativa1","tentativa2","tentativa3","tentativa4","novasenha","sair"]
+// var tentativaRdn = tentativas.randomElement()!
+
+// while tentativaRdn != "novasenha" {
+//     if (tentativaRdn == "sair")
+//     {
+//         print("Programa encerrado",tentativaRdn)
+//         break;
+//     } else
+//     {
+//         print("Senha errada",tentativaRdn)
+//         tentativaRdn = tentativas.randomElement()!
+//     }
+// }
+// if(tentativaRdn == "novasenha")
+// {
+//     print("Acesso concedido",tentativaRdn)
+// }
+//3.
+
+//for x in 0...10 {
+//    let nota1 = Int.random(in: 1..<11)
+//    let nota2 = Int.random(in: 1..<11)
+//    let nota3 = Int.random(in: 1..<11)
+    
+//    let media = ( nota1*2 + nota2*4 + nota3*3 ) / 10
+    
+//    print("Média aluno" + String(x) + " = " + String(media))
+//}
+//4.
+//var maior = 0;
+//var menor = 101;
+//for _ in 0...50 {
+//    let inputNumber = Int.random(in: 1..<101)
+//    if (inputNumber < menor)
+//    {
+//        menor = inputNumber;
+//    } else if (inputNumber > maior)
+//    {
+//        maior = inputNumber;
+//    }
+//}
+//print("Maior: " + String(maior))
+//print("Menor: " + String(menor))
+//5.
+//let q = Int.random(in: 1..<11)
+//let val1 = Int.random(in: 1..<11)
+//let val2 = Int.random(in: 1..<11)
+//let val3 = Int.random(in: 1..<11)
+//let val4 = Int.random(in: 1..<11)
+
+//print("Multiplicar até : " + String(q))
+
+//print("Número 1 :" + String(val1))
+//for x in 1...q {
+//    print(String(x) + " x " + String(val1) + " = " + String(val1*x))
+//}
+//print("Número 2 :" + String(val2))
+//for x in 1...q {
+//   print(String(x) + " x " + String(val1) + " = " + String(val2*x))
+//}
+//print("Número 3 :" + String(val3))
+//for x in 1...q {
+//    print(String(x) + " x " + String(val1) + " = " + String(val3*x))
+//}
+//print("Número 4 :" + String(val4))
+//for x in 1...q {
+//    print(String(x) + " x " + String(val1) + " = " + String(val4*x))
+//}
+//6.
+//NAO SEI
+//7.
+//var array: [Int] = [];
+
+//for _ in 0...10 {
+//    let num = Int.random(in: 1..<101)
+//    array.append(num)
+//}
+//array.sort()
+//array.forEach { element in
+//    print(element)
+//}
