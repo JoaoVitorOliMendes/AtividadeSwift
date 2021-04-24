@@ -1,0 +1,73 @@
+import Foundation
+
+//1.
+
+func divisores(number:Int) -> Set<Int>
+{
+    var numberset = Set<Int>()
+
+    for x in 1...number
+    {
+        if((number%x) == 0)
+        {
+            numberset.insert(number/x)
+        }
+    }
+    return numberset
+}
+//print(divisores(number: 42))
+//2.
+
+func test(number:Int) -> Bool
+{
+    if(number > 0){
+        return true
+    }else {
+        return false
+    }
+}
+//print(test(number:4))
+//3.
+
+func conceito(number: Double) -> String
+{
+    switch number {
+        case 0...4.9: return "D";
+        case 5...6.9: return "C";
+        case 7...8.9: return "B";
+        case 9...10: return "A";
+        default: return "Nota fora dos parametros";
+    }
+}
+//print(conceito(number: 9.2))
+//4.
+
+func soma(array: [Int]) -> Int
+{
+    return array.reduce(0, +)
+}
+
+//print(soma(array: [2, 3, 26, 37, 38, 48, 60, 62, 75, 78]))
+//5.
+
+func multiplicar(number: Int)
+{
+    let array: [Int] = [1, 2, 3, 4, 5]
+    
+    array.forEach { element in
+        print(element * number)
+    }
+}
+//multiplicar(number: 2)
+//6.
+func divisoes(number: [Int])
+{
+    number.forEach { element in
+        let div = element/2
+        if(div >= 1)
+        {
+            print(div)
+        }
+    }
+}
+//divisoes(number: [3,4,5,2,0])
